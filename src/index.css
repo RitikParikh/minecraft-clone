@@ -53,3 +53,13 @@ body {
 .cursor {
   color: #ffffff;
 }
+
+.texture-selector {
+  transform: scale(5);
+  transition: 0.8;
+}
+
+.texture-selector img.active{
+  transform: scale(1.1);
+}
+
