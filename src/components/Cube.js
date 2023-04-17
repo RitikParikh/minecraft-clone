@@ -1,6 +1,6 @@
 import { useBox } from "@react-three/cannon"
 import * as textures from "../images/textures";
-import { useStore } from '../hooks/userStore';
+import { useStore } from '../hooks/useStore';
 export const Cube = ({position, texture}) => {
      const [ref] = useBox(()=>({
         type:'Static',
